@@ -14,42 +14,44 @@ Navbar
     logo
     home
     manual entry
-    settings
+    settings <br><br>
 index.html
 <br>
     today
     this week
     this month
-        show calendar with events that have a call scheduled marked (ie red background?)
+        show calendar with events that have a call scheduled marked (ie red background?) <br><br>
 manual entry
 <br>
     name of event
     date, time
     time to notify
-    method of notification
+    method of notification<br><br>
 settings
 <br>
     customize home page
         which calendars to show
         which calendar events to show
         how scheduled calls are marked
+        <br><br>
 logout
 <br>
-login, register pages
+login, register pages<br><br>
 
 
 ## Back-end
 API
 <br>
-    learn how to access popular calendar app's data, JSON
-### Database (SQL?)
+    learn how to access popular calendar app's data, JSON<br><br>
+Database (SQL?)
+<br>
     should API data be stored in a database, or should API calls be made any time data needs to be accessed?
-        how often should API calls be made?
-phone-calls
+        how often should API calls be made?<br><br>
+phone-calls<br>
     how to use database to execute phone call
-    how to executee phone call
-other notifications
-    how to link with smart home
+    how to executee phone call<br><br>
+other notifications<br>
+    how to link with smart home<br><br>
 
 ## testing
 ?
