@@ -10,6 +10,7 @@ This web app utilizes an API (i.e. Google Calendar) to fetch all important event
 
 ## Front-end
 Navbar
+<br>
     logo
     home
     manual entry
