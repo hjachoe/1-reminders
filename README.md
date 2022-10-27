@@ -16,28 +16,33 @@ Navbar
     manual entry
     settings
 index.html
+<br>
     today
     this week
     this month
         show calendar with events that have a call scheduled marked (ie red background?)
 manual entry
+<br>
     name of event
     date, time
     time to notify
     method of notification
 settings
+<br>
     customize home page
         which calendars to show
         which calendar events to show
         how scheduled calls are marked
 logout
+<br>
 login, register pages
 
 
 ## Back-end
 API
+<br>
     learn how to access popular calendar app's data, JSON
-Database (SQL?)
+### Database (SQL?)
     should API data be stored in a database, or should API calls be made any time data needs to be accessed?
         how often should API calls be made?
 phone-calls
