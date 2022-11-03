@@ -1,66 +1,70 @@
-# Project Title
-Knocker-up
+# Getting Started with Create React App
 
-# Project Description
-Sometimes, your planner, favorite productivity app, and/or memory aren't enough to remember an important meeting or deadline; this can be especially true for those who have ADHD. For everyone who needs a little more help than conventional methods to remember important events, meet Knocker-up.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Knocker-up is a project written in *** designed to help users, particularly those with ADHD, to never miss an important date or deadline. Recognizing how ADHD makes every additional step - from putting an event into a planner to seeing any reminder/notification - significantly more challenging, Knocker-up is designed to minimize necessary user input and to use a notification method tailored to each user's needs that cannot be missed.
+## Available Scripts
 
-This web app utilizes an API (i.e. Google Calendar) to fetch all important events then notifies the user before the start time. By default, the user will be notified 1 hour before start time and via phone call. However, method of notification, number of attempted calls, and time of call can all be customized by the user. An example of another method of notification is to link Knocker-up with smart home devices so that notifications are announced repeateedly throughout the home until acknowledged by user.
+In the project directory, you can run:
 
-## Front-end
-Navbar
-<br>
-    logo
-    home
-    manual entry
-    settings <br><br>
-index.html
-<br>
-    today
-    this week
-    this month
-        show calendar with events that have a call scheduled marked (ie red background?) <br><br>
-manual entry
-<br>
-    name of event
-    date, time
-    time to notify
-    method of notification<br><br>
-settings
-<br>
-    customize home page
-        which calendars to show
-        which calendar events to show
-        how scheduled calls are marked
-        <br><br>
-logout
-<br>
-login, register pages<br><br>
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Back-end
-API
-<br>
-    learn how to access popular calendar app's data, JSON<br><br>
-Database (SQL?)
-<br>
-    should API data be stored in a database, or should API calls be made any time data needs to be accessed?
-        how often should API calls be made?<br><br>
-phone-calls<br>
-    how to use database to execute phone call
-    how to executee phone call<br><br>
-other notifications<br>
-    how to link with smart home<br><br>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## testing
-?
+### `npm test`
 
-## deployment
-?
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# How to install and run
+### `npm run build`
 
-# How to use project
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
