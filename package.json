@@ -22,7 +22,7 @@
     "prepare": "husky install",
     "scriptname": "husky install",
     "format": "prettier --write .",
-    "lint": "eslint ./src/*",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
     "mdlint": "markdownlint --json **/*.md"
   },
   "browserslist": {
