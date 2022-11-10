@@ -23,7 +23,8 @@
     "scriptname": "husky install",
     "format": "prettier --write .",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src/",
-    "mdlint": "markdownlint --json --ignore node_modules **/*.md"
+    "mdlint": "markdownlint --json --ignore node_modules **/*.md",
+    "playwright": "playwright test"
   },
   "browserslist": {
     "production": [
