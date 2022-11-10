@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  function sumTest(a: number, b: number) {
+  function sumTest(a: number, b: number): number {
     return a + b;
   }
 

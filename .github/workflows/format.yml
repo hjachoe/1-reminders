@@ -16,3 +16,5 @@ jobs:
         run: npm run format
       - name: ESLint
         run: npm run lint
+      - name: MDLint
+        run: npm run mdlint
