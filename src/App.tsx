@@ -1,12 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
+  function sumTest(a: number, b: number) {
+    return a + b;
+  }
+
   return (
     <div className="App">
       <h1>Hello world!</h1>
+      <p>One plus one equals {sumTest(1, 1)}</p>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
